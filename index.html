@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Espaço de acolhimento e conscientização sobre saúde emocional, criado para a atividade Setembro Amarelo.">
+  <meta name="theme-color" content="#f6c945">
+  <title>Você Importa | Setembro Amarelo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="topbar">
+    <a class="brand" href="#inicio" aria-label="Você Importa — início">
+      <span class="brand-mark" aria-hidden="true">♥</span>
+      <span>Você Importa</span>
+    </a>
+    <nav aria-label="Navegação principal">
+      <a href="#respirar">Respirar</a>
+      <a href="#apoio">Buscar apoio</a>
+    </nav>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero" id="inicio">
+      <div class="hero-copy">
+        <span class="eyebrow">Setembro Amarelo • acolher também é cuidar</span>
+        <h1>Você não precisa enfrentar tudo sozinho.</h1>
+        <p>Quando o peso parecer grande demais, pare por um instante. Respirar, conversar e pedir ajuda são atitudes de coragem.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="tel:188">
+            <span aria-hidden="true">☎</span> Ligue 188 — CVV
+          </a>
+          <a class="button button-secondary" href="https://www.cvv.org.br/" target="_blank" rel="noopener noreferrer">Acessar o site do CVV</a>
+        </div>
+        <small>Atendimento gratuito, sigiloso e disponível 24 horas.</small>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="sun"></div>
+        <div class="message-card">
+          <span>lembrete de hoje</span>
+          <strong>O seu sentimento merece ser ouvido.</strong>
+        </div>
+      </div>
+    </section>
+
+    <section class="breathing-section" id="respirar">
+      <div class="section-heading">
+        <span class="eyebrow">Um minuto para você</span>
+        <h2>Vamos respirar juntos?</h2>
+        <p>Use este exercício como uma pausa breve. Sente-se de forma confortável e acompanhe o ritmo.</p>
+      </div>
+
+      <div class="breathing-panel">
+        <div class="breathing-visual">
+          <div class="breathing-circle" id="breathingCircle">
+            <span id="breathingText">Pronto?</span>
+          </div>
+        </div>
+        <div class="breathing-controls">
+          <p id="breathingInstruction" aria-live="polite">Inspire por 4 segundos, segure por 4 e expire por 6.</p>
+          <div class="progress" aria-hidden="true"><span id="progressBar"></span></div>
+          <button class="button button-primary" id="breathingButton" type="button">Começar exercício</button>
+          <button class="text-button" id="stopButton" type="button" hidden>Encerrar</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="message-section" aria-labelledby="messageTitle">
+      <div class="message-box">
+        <span class="quote-mark" aria-hidden="true">“</span>
+        <h2 id="messageTitle">Uma mensagem para o seu momento</h2>
+        <blockquote id="supportMessage">Você não precisa ter todas as respostas hoje. Um pequeno passo já é movimento.</blockquote>
+        <button class="button button-dark" id="messageButton" type="button">Receber outra mensagem</button>
+      </div>
+    </section>
+
+    <section class="support-section" id="apoio">
+      <div class="section-heading">
+        <span class="eyebrow">Rede de cuidado</span>
+        <h2>Onde buscar ajuda</h2>
+        <p>Conversar com alguém de confiança ou procurar um serviço de saúde pode fazer diferença.</p>
+      </div>
+
+      <div class="support-grid">
+        <article class="support-card featured">
+          <span class="card-icon" aria-hidden="true">☎</span>
+          <h3>CVV — telefone 188</h3>
+          <p>Apoio emocional gratuito, sigiloso e disponível 24 horas por dia.</p>
+          <a href="tel:188">Ligar agora <span aria-hidden="true">→</span></a>
+        </article>
+        <article class="support-card">
+          <span class="card-icon" aria-hidden="true">✚</span>
+          <h3>CAPS e unidades de saúde</h3>
+          <p>Procure o CAPS, UBS ou posto de saúde mais próximo para receber orientação profissional.</p>
+          <a href="https://www.gov.br/saude/pt-br/composicao/saes/desmad/raps/caps" target="_blank" rel="noopener noreferrer">Conhecer os CAPS <span aria-hidden="true">→</span></a>
+        </article>
+        <article class="support-card">
+          <span class="card-icon" aria-hidden="true">●</span>
+          <h3>Rede de confiança</h3>
+          <p>Fale com familiares, amigos, professores ou alguém em quem você confia. Você merece ser escutado.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="urgent-note" aria-label="Orientação em situação de emergência">
+      <div>
+        <strong>Se houver risco imediato, não fique sozinho.</strong>
+        <p>Busque um serviço de emergência ou peça ajuda a uma pessoa de confiança agora.</p>
+      </div>
+      <a class="button button-light" href="tel:188">Conversar com o CVV</a>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-brand"><span aria-hidden="true">♥</span> Você Importa</div>
+    <p>Projeto acadêmico desenvolvido por <strong>Manoel Ricardo</strong> para conscientização sobre o Setembro Amarelo.</p>
+    <p class="legal">Este site não substitui atendimento psicológico, médico ou qualquer acompanhamento profissional.</p>
+    <p class="copyright">© <span id="year"></span> • Desenvolvido com empatia e responsabilidade.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
